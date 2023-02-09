@@ -2,9 +2,7 @@
 En el marco del curso "Introducción al análisis bioinformático de secuencias de RAD-seq". Realizado en Ushuaia, Argentina durante febrero 2023.
 
 ### Autores
-Santiago Ceballos, CADIC-CONICET, UNTdF.
-Ulises Balza, CADIC-CONICET.
-Nicolas Lois, INIBIOMA-CONICET, UBA.
+Santiago Ceballos (CADIC-CONICET, UNTdF), Ulises Balza (CADIC-CONICET) & Nicolas Lois (INIBIOMA-CONICET, UBA).
 
 ### Introduccion a Jupyter Notebooks y R Markdown
 Esta clase es parte del curso ------. Su objetivo es acercar a lxs estudiantes al logging  de sus proyectos bioinformaticos a traves del uso de una aplicación web que ayuda a combinar código, texto explicativo y recursos multimedia en un solo documento. Los Jupyter Notebooks presentan una interfaz visual y fácilmente comprensible y trabajar con grandes bases de datos (locales o libres en la web) de manera transparente y replicable.
