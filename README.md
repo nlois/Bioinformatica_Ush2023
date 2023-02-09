@@ -23,7 +23,10 @@ Primero vamos a clonar este repositorio en nuestra carpeta en el cluster.
 
 Para eso tienen que seguir los siguientes pasos:
 1. conectarse por protocolo ssh:
-ssh cursorad2023@170.210.70.37 e ingresan la clave
+```console
+ssh cursorad2023@170.210.70.37 
+```
+e ingresan la clave
 
 2. Clonar el repositorio en su carpeta
 cd NOMBRE_DE_CARPETA
