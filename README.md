@@ -39,7 +39,7 @@ el _flag_ ```-r``` permite copiar carpetas completas.
 
 3. Clonar el repositorio en su carpeta
 ```console
-cd NOMBRE_DE_CARPETA
+cd SU_NOMBRE
 git clone https://github.com/nlois/Bioinformatica_Ush2023
 ```
 
