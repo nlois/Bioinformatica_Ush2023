@@ -20,16 +20,24 @@ Estuvieron trabajando en la terminal, lo cual es un buen ejercicio, pero ahora l
 #### Actividad
 Para este ejercicio vamos a correr un ejemplo distinto con datos reales de un vertebrado. Ahora la complejidad aumenta, tenemos los datos en el cluster de la UNTdF y vamos a accederlos de manera remota desde nuestra computadora a traves de las herramientas de jupyter lab.
 
-Primero vamos a clonar este repositorio en nuestra carpeta en el cluster.
+Primero vamos a copiar los archivos necesarios para trabajar y clonar este repositorio en nuestra carpeta en el cluster.
 
-Para eso tienen que primero conectarse como hicieron esta semana:
-1. conectarse por protocolo ssh:
+1. Para eso tienen que primero conectarse como hicieron esta semana por protocolo ssh:
 ```console
 ssh cursorad2023@170.210.70.37 
 ```
 e ingresan la clave
 
-2. Clonar el repositorio en su carpeta
+2. Copiar la carpeta carancho a una carpeta con su nombre (creenla con ```mkdir``` si no la crearon aun):
+```console
+mkdir SU_NOMBRE
+```
+```console
+cp -r /home/cursorad2023/carancho_estudiantes /home/cursorad2023/SU_NOMBRE/
+```
+el _flag_ ```-r``` permite copiar carpetas completas.
+
+3. Clonar el repositorio en su carpeta
 ```console
 cd NOMBRE_DE_CARPETA
 git clone https://github.com/nlois/Bioinformatica_Ush2023
