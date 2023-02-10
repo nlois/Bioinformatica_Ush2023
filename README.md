@@ -33,7 +33,7 @@ e ingresan la clave
 mkdir SU_NOMBRE
 ```
 ```console
-cp -r /home/cursorad2023/carancho_estudiantes/ home/cursorad2023/RAD/alumnos/SU_NOMBRE/
+cp -r /home/cursorad2023/carancho_estudiantes/ /home/cursorad2023/RAD/alumnos/SU_NOMBRE/
 ```
 el _flag_ ```-r``` permite copiar carpetas completas.
 
