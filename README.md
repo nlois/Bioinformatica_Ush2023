@@ -34,10 +34,8 @@ cd SU_NOMBRE
 git clone https://github.com/nlois/Bioinformatica_Ush2023
 ```
 
-3. Copiar la carpeta carancho_estudiantes a una carpeta con su nombre (creenla con ```mkdir``` si no la crearon aun):
-```console
-mkdir SU_NOMBRE
-```
+3. Copiar la carpeta carancho_estudiantes 
+
 ```console
 cp -r /home/cursorad2023/carancho_estudiantes/ /home/cursorad2023/RAD/alumnos/SU_NOMBRE/Bioinformatica_Ush2023
 ```
