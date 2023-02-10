@@ -1,4 +1,4 @@
-# Introduccion al uso de Jupyter Notebooks y R Markdown
+# Introducción al uso de Jupyter Notebooks y R Markdown
 En el marco del curso "Introducción al análisis bioinformático de secuencias de RAD-seq". Realizado en Ushuaia, Argentina durante febrero 2023.
 
 ### Autores
