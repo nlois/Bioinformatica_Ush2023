@@ -28,20 +28,20 @@ ssh cursorad2023@170.210.70.37
 ```
 e ingresan la clave
 
-2. Copiar la carpeta carancho_estudiantes a una carpeta con su nombre (creenla con ```mkdir``` si no la crearon aun):
-```console
-mkdir SU_NOMBRE
-```
-```console
-cp -r /home/cursorad2023/carancho_estudiantes/ /home/cursorad2023/RAD/alumnos/SU_NOMBRE/
-```
-el _flag_ ```-r``` permite copiar carpetas completas.
-
-3. Clonar el repositorio en su carpeta
+2. Clonar el repositorio en su carpeta
 ```console
 cd SU_NOMBRE
 git clone https://github.com/nlois/Bioinformatica_Ush2023
 ```
+
+3. Copiar la carpeta carancho_estudiantes a una carpeta con su nombre (creenla con ```mkdir``` si no la crearon aun):
+```console
+mkdir SU_NOMBRE
+```
+```console
+cp -r /home/cursorad2023/carancho_estudiantes/ /home/cursorad2023/RAD/alumnos/SU_NOMBRE/Bioinformatica_Ush2023
+```
+el _flag_ ```-r``` permite copiar carpetas completas.
 
 Listo! Fíjense con qué facilidad consiguen este repositorio con los scripts para trabajar y una narrativa que acompaña el codigo! 
 
