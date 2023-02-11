@@ -8,14 +8,14 @@ En el marco del curso "Introducción al análisis bioinformático de secuencias 
 Esta clase es parte del curso "Introducción al análisis bioinformático de secuencias de RAD-seq". Su objetivo es acercar a lxs estudiantes al _logging_  de sus proyectos bioinformaticos a traves del uso de una aplicación web que ayuda a combinar código, texto explicativo y recursos multimedia en un solo documento. Los _Jupyter Notebooks_ presentan una interfaz visual fácilmente comprensible y trabajar con grandes bases de datos (locales o libres en la web) de manera transparente y replicable.
 
 #### Replicabilidad
-1. Es honesto
-2. Es práctico (revisión en un paper)
-3. Es útil (copiar lo que hicieron otros y no perder el tiempo)
-4. Es lo que hacemos siempre! La semana pasada lxs estudiantes del primer curso usaron un protocolo para armar sus bibliotecas de fragmentos, no podemos completar el proceso sin hacer un protocolo para analizar los datos, es un riesgo que no deberíamos correr luego de haber puesto tantos recursos en obtener la información.
+1. Es honesto (permite mostrar el proceso desde los datos crudos hasta el plot final)
+2. Es práctico (e.g. volver a realizar todos los análisis con modificaciones solicitadas en la revisión en un artículo)
+3. Es útil (utilizar recursos en repositorios con muchas herramientas comentadas que permiten ahorrar mucho tiempo)
+4. En el fondo, es lo que hacemos siempre! La semana pasada lxs estudiantes del primer curso usaron un protocolo para armar sus bibliotecas de fragmentos generados por la técnica RAD, no podemos completar el proceso sin hacer un protocolo prolijo y replicable para analizar los datos, es un riesgo que no deberíamos correr luego de haber puesto tantos recursos en obtener la información.
 
-Estuvieron trabajando en la terminal, lo cual es un buen ejercicio, pero ahora les vamos a proponer dejar un registro ordenado de todo lo que hicieron. La propuesta es analoga a lo que muchos de ustedes ya conocen: trabajan en R Studio en lugar de trabajar en la consola de R directamente.
+Hasta ahora estuvieron trabajando en la terminal, lo cual es un buen ejercicio, pero ahora les vamos a proponer dejar un registro ordenado de todo lo que hicieron. La propuesta es análoga a lo que muchos de ustedes ya conocen: trabajar en R Studio en lugar de trabajar en la consola de R directamente.
 
----------------------------------------
+------------------------------------------------
 
 #### Actividad
 Para este ejercicio vamos a correr un ejemplo distinto. Pero ahora la complejidad aumenta, porque vamos a a acceder a los datos de manera remota desde nuestra computadora a traves de las herramientas de jupyter lab. Los primeros pasos son un poco engorrosos pero el resultado final (creemos) vale la pena. Ya nos dirán.
@@ -31,6 +31,8 @@ e ingresan la clave
 2. Clonar el repositorio en su carpeta
 ```console
 cd SU_NOMBRE
+```
+```console
 git clone https://github.com/nlois/Bioinformatica_Ush2023
 ```
 
