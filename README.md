@@ -39,7 +39,7 @@ git clone https://github.com/nlois/Bioinformatica_Ush2023
 3. Copiar la carpeta carancho_estudiantes 
 
 ```console
-cp -r /home/cursorad2023/carancho_estudiantes/ /home/cursorad2023/RAD/alumnos/SU_NOMBRE/Bioinformatica_Ush2023
+cp -r /home/cursorad2023/carancho_estudiantes/ /home/cursorad2023/alumnos/SU_NOMBRE/Bioinformatica_Ush2023
 ```
 el _flag_ ```-r``` permite copiar carpetas completas.
 
